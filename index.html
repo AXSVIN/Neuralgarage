@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuralgarage pvt ltd</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="icon" href="logo1.jpg" type="logo1.jpg">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+</head>
+<body>
+       <div id="navbar" >
+            <nav class="navbar navbar-expand-sm  navbar-dark p-3" style="background-color: rgb(255, 255, 255); color: black;">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="#">
+                            <img src="logo1.jpg" alt="Avatar Logo" style="width:40px; margin-left: 10px;" class="rounded-pill"> 
+                          </a>
+                    </div>
+                  <a class="navbar-brand text-black" href="#" id="text-style"> <b>Neuralgarage pvt ltd</b></a>
+                  <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon bg-black"></span>
+                  </button>
+                <div class="collapse navbar-collapse text-black" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-black" href="#">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Language</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown">Contact</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-black text-capitalize" href="#">email</a></li>
+                          <li><a class="dropdown-item text-black text-capitalize" href="#">phone</a></li>
+                          <li><a class="dropdown-item text-black text-capitalize" href="#">linked in</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        
+
+
+        <form id="videoForm" class="col-sm-6 col-lg-12 col-md-12 p-3">
+          <div class="text-center"> <!-- Centering the video and title -->
+              <label for="videoLanguage"><b>Title:</b></label>
+              <input type="text" id="videoTitle" name="videoTitle" placeholder="Title name">
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-6">
+                  <label for="videoLanguage"><b>Language:</b></label>
+                  <input type="text" id="videoLanguage" name="videoLanguage" class="form-control" value="English" >
+              </div>
+              <div class="col-3 justify-content-md-end px-3 mx-4">
+                  <label for="videoDuration"><b>Duration:</b></label>
+                  <input type="text" id="videoDuration" name="videoDuration" class="form-control" value="0.07" >
+              </div>
+          </div>
+          <div class="row justify-content-center ">
+              <div class="col-12">
+                  <label for="uploadVideo"><b>Upload Video:</b></label>
+                  <input type="file" id="uploadVideo" name="uploadVideo" class="form-control-file" accept="video/mp4" multiple required>
+              </div>
+          </div>
+          <div class="row justify-content-center ">
+              <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+          </div>
+        </form>
+        
+        <!-- Button to trigger form submission -->
+        <div class="text-center mt-3">
+          <button id="toggleButton" class="btn btn-danger">Hide Form</button>
+        </div>
+
+
+
+
+
+
+    <div class="container-fluid mt-3 ">
+      <div class="row justify-content-center"> <!-- Centering the row -->
+              <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+                  <div class="text-center"> <!-- Centering the video and title -->
+                      <video id="myVideo" class="img-fluid" controls>
+                          <source src="madha1.mp4" type="video/mp4">
+                      </video>
+                      <h3 class="text-capitalize"><b>Madha gowri trading news</b></h3>
+                  </div>
+                  <div class="row justify-content-center ">
+                      <div class="col-6">
+                          <h5><b>Language</b></h5>
+                          <h6><b>English</b></h6>
+                      </div>
+                      <div class="col-3 justify-content-md-end px-3 mx-4">
+                          <h5><b>Duration</b></h5>
+                          <h6><b>0.06</b></h6>
+                      </div>
+                  </div>
+               </div>
+
+
+
+               
+          
+
+
+             <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+                <div class="text-center"> <!-- Centering the video and title -->
+                    <video id="myVideo" class="img-fluid" controls>
+                        <source src="sidd1.mp4" type="video/mp4">
+                    </video>
+                    <h3 class="text-capitalize"><b>sidd ahmed football news</b></h3>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-6">
+                        <h5><b>Language</b></h5>
+                        <h6><b>English</b></h6>
+                    </div>
+                    <div class="col-3 justify-content-md-end px-3 mx-4">
+                        <h5><b>Duration</b></h5>
+                        <h6><b>0.08</b></h6>
+                    </div>
+                </div>
+             </div>
+
+
+
+
+           <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+              <div class="text-center"> <!-- Centering the video and title -->
+                  <video id="myVideo" class="img-fluid" controls>
+                      <source src="sudar1.mp4" type="video/mp4">
+                  </video>
+                  <h3 class="text-capitalize"><b>sundar pichai oneplus news</b></h3>
+              </div>
+              <div class="row justify-content-center ">
+                  <div class="col-6">
+                      <h5><b>Language</b></h5>
+                      <h6><b>English</b></h6>
+                  </div>
+                  <div class="col-3 justify-content-md-end px-3 mx-4">
+                      <h5><b>Duration</b></h5>
+                      <h6><b>0.08</b></h6>
+                  </div>
+              </div>
+           </div>
+
+
+
+
+           <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+            <div class="text-center"> <!-- Centering the video and title -->
+                <video id="myVideo" class="img-fluid" controls>
+                    <source src="virat2.mp4" type="video/mp4">
+                </video>
+                <h3 class="text-capitalize"><b>Virat  about tata</b></h3>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-6">
+                    <h5><b>Language</b></h5>
+                    <h6><b>English</b></h6>
+                </div>
+                <div class="col-3 justify-content-md-end px-3 mx-4">
+                    <h5><b>Duration</b></h5>
+                    <h6><b>0.04</b></h6>
+                </div>
+            </div>
+         </div>
+
+
+
+         <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+            <div class="text-center"> <!-- Centering the video and title -->
+                <video id="myVideo" class="img-fluid" controls>
+                    <source src="boy.mp4" type="video/mp4">
+                </video>
+                <h3 class="text-capitalize"><b>Science news by a boy</b></h3>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-6">
+                    <h5><b>Language</b></h5>
+                    <h6><b>English</b></h6>
+                </div>
+                <div class="col-3 justify-content-md-end px-3 mx-4">
+                    <h5><b>Duration</b></h5>
+                    <h6><b>0.06</b></h6>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+          <div class="text-center"> <!-- Centering the video and title -->
+              <video id="myVideo" class="img-fluid" controls>
+                  <source src="virat.mp4" type="video/mp4">
+              </video>
+              <h3 class="text-capitalize"><b>Virat news about stock market</b></h3>
+          </div>
+          <div class="row justify-content-center ">
+              <div class="col-6">
+                  <h5><b>Language</b></h5>
+                  <h6><b>English</b></h6>
+              </div>
+              <div class="col-3 justify-content-md-end px-3 mx-4">
+                  <h5><b>Duration</b></h5>
+                  <h6><b>0.04</b></h6>
+              </div>
+          </div>
+       </div>
+
+
+       <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+        <div class="text-center"> <!-- Centering the video and title -->
+            <video id="myVideo" class="img-fluid" controls>
+                <source src="dhoni.mp4" type="video/mp4">
+            </video>
+            <h3 class="text-capitalize"><b>Dhoni about elon musk</b></h3>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-6">
+                <h5><b>Language</b></h5>
+                <h6><b>English</b></h6>
+            </div>
+            <div class="col-3 justify-content-md-end px-3 mx-4">
+                <h5><b>Duration</b></h5>
+                <h6><b>0.05</b></h6>
+            </div>
+        </div>
+     </div>
+
+
+     <div class="col-sm-3 col-lg-3 col-md-4 p-3">
+      <div class="text-center"> <!-- Centering the video and title -->
+          <video id="myVideo" class="img-fluid" controls>
+              <source src="aimo.mp4" type="video/mp4">
+          </video>
+          <h3 class="text-capitalize"><b>Html means</b></h3>
+      </div>
+      <div class="row justify-content-center ">
+          <div class="col-6">
+              <h5><b>Language</b></h5>
+              <h6><b>English</b></h6>
+          </div>
+          <div class="col-3 justify-content-md-end px-3 mx-4">
+              <h5><b>Duration</b></h5>
+              <h6><b>0.07</b></h6>
+          </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+
+   
+
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoForm = document.getElementById('videoForm');
+        const toggleButton = document.getElementById('toggleButton');
+        const uploadedVideos = []; // Array to store uploaded videos
+
+        // Function to toggle the form visibility
+        function toggleFormVisibility() {
+            if (videoForm.style.display === 'none') {
+                videoForm.style.display = 'block';
+                toggleButton.textContent = 'Hide Form';
+            } else {
+                videoForm.style.display = 'none';
+                toggleButton.textContent = 'Show Form';
+            }
+        }
+
+        // Add event listener to the toggle button
+        toggleButton.addEventListener('click', toggleFormVisibility);
+
+        videoForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Get form data
+            const formData = new FormData(videoForm);
+            const videoTitle = formData.get('videoTitle');
+            const videoLanguage = formData.get('videoLanguage');
+            const videoDuration = formData.get('videoDuration');
+            const uploadedFiles = formData.getAll('uploadVideo'); // Get all uploaded files
+
+            // Process each uploaded file
+            uploadedFiles.forEach(uploadedFile => {
+                const container = document.createElement('div');
+                container.classList.add('col-sm-3', 'col-lg-3', 'col-md-4', 'p-3');
+
+                const textCenterDiv = document.createElement('div');
+                textCenterDiv.classList.add('text-center');
+
+                const video = document.createElement('video');
+                video.classList.add('img-fluid');
+                video.setAttribute('controls', '');
+                const source = document.createElement('source');
+                source.src = URL.createObjectURL(uploadedFile);
+                source.type = 'video/mp4';
+                video.appendChild(source);
+
+                const title = document.createElement('h3');
+                title.classList.add('text-capitalize');
+                title.innerHTML = `<b>${videoTitle}</b>`;
+
+                textCenterDiv.appendChild(video);
+                textCenterDiv.appendChild(title);
+
+                const row = document.createElement('div');
+                row.classList.add('row', 'justify-content-center');
+
+                const languageDiv = document.createElement('div');
+                languageDiv.classList.add('col-6');
+                const languageTitle = document.createElement('h5');
+                languageTitle.innerHTML = '<b>Language</b>';
+                const languageValue = document.createElement('h6');
+                languageValue.innerHTML = `<b>${videoLanguage}</b>`;
+                languageDiv.appendChild(languageTitle);
+                languageDiv.appendChild(languageValue);
+
+                const durationDiv = document.createElement('div');
+                durationDiv.classList.add('col-3', 'justify-content-md-end', 'px-3', 'mx-4');
+                const durationTitle = document.createElement('h5');
+                durationTitle.innerHTML = '<b>Duration</b>';
+                const durationValue = document.createElement('h6');
+                durationValue.innerHTML = `<b>${videoDuration}</b>`;
+                durationDiv.appendChild(durationTitle);
+                durationDiv.appendChild(durationValue);
+
+                row.appendChild(languageDiv);
+                row.appendChild(durationDiv);
+
+                container.appendChild(textCenterDiv);
+                container.appendChild(row);
+
+                document.body.appendChild(container);
+
+                uploadedVideos.push(uploadedFile); // Store uploaded video in the array
+            });
+
+            videoForm.reset(); // Reset the form
+
+            // Hide the form after submission
+            videoForm.style.display = 'none';
+            toggleButton.textContent = 'Hide Form'; // Change button text
+        });
+    });
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const videos = document.querySelectorAll('video');
+
+        // Pause all videos except the one clicked
+        function pauseOtherVideos(clickedVideo) {
+            videos.forEach(video => {
+                if (video !== clickedVideo) {
+                    video.pause();
+                }
+            });
+        }
+
+        // Add click event listener to each video
+        videos.forEach(video => {
+            video.addEventListener('play', function() {
+                pauseOtherVideos(video);
+            });
+        });
+    });
+</script>
+
+    
+
+
+  </div>
+</div>
+</body>
+</html>
